@@ -1,5 +1,6 @@
 package iam.jsed.sunshine;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v4.app.Fragment;
@@ -98,6 +99,10 @@ public class ForecastFragment extends Fragment {
                 String itemText = (String) adapterView.getItemAtPosition(i);
                 Toast toast = Toast.makeText(getContext(), itemText, Toast.LENGTH_SHORT);
                 toast.show();
+
+                Intent showForecastDetails = new Intent(getActivity(), ForecastDetailActivity.class)
+                        .putExtra(Intent.EXTRA_TEXT, itemText);
+                startActivity(showForecastDetails);
             }
         });
 
