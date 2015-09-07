@@ -1,4 +1,4 @@
-package iam.jsed.sunshine.iam.jsed.sunshine.worker;
+package iam.jsed.sunshine.worker;
 
 import android.os.AsyncTask;
 import android.util.Log;
