@@ -2,13 +2,13 @@
 <resources>
     
     <string-array name="unit">
-        <item>metric</item>
-        <item>imperial</item>
+        <item>Metric</item>
+        <item>Imperial</item>
     </string-array>
 
     <string-array name="unit_alias">
-        <item>Celsius</item>
-        <item>Fahrenheit</item>
+        <item>metric</item>
+        <item>imperial</item>
     </string-array>
 
 </resources>
